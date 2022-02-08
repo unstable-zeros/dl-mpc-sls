@@ -14,7 +14,7 @@ This repository hosts the code needed to reproduce the examples in the published
 
 6. C. Amo Alonso*, F. Yang*, and N. Matni. Data-Driven Distributed and Localized Model Predictive Control via System Level Synthesis. Submitted to _IEEE Open Journal of Control Systems_, 2022, (https://arxiv.org/abs/2112.12229).
 
-* denotes equal contribution
+*denotes equal contribution
 
 ## 2020_CDC_DLMPC
 
