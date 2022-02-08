@@ -12,7 +12,9 @@ This repository hosts the code needed to reproduce the examples in the published
 
 5. C. Amo Alonso, J.S. Li, J. Anderson, and N. Matni. Distributed and Localized Model Predictive Control via System Level Synthesis. Part II: Theoretical Guarantees. Submitted to _IEEE Transactions on Control of Network Systems_, 2022, (TBD).
 
-6. C. Amo Alonso, F. Yang, and N. Matni. Data-Driven Distributed and Localized Model Predictive Control via System Level Synthesis. Submitted to _IEEE Open Journal of Control Systems_, 2022, (https://arxiv.org/abs/2112.12229).
+6. C. Amo Alonso*, F. Yang*, and N. Matni. Data-Driven Distributed and Localized Model Predictive Control via System Level Synthesis. Submitted to _IEEE Open Journal of Control Systems_, 2022, (https://arxiv.org/abs/2112.12229).
+
+* denotes equal contribution
 
 ## 2020_CDC_DLMPC
 
@@ -70,8 +72,10 @@ Download this repository and make sure the /matlab directory and its subfolders 
 
 ## 2022_OJCS_DataDriven-DLMPC
 
-This folder hosts the code needed to reproduce the examples in the preprint "C. Amo Alonso, F. Yang, and N. Matni. Data-Driven Distributed and Localized Model Predictive Control via System Level Synthesis. Submitted to IEEE Open Journal of Control Systems, 2022" at https://arxiv.org/abs/2112.12229.
+This folder hosts the code needed to reproduce the examples in article [6] and its preprint https://arxiv.org/abs/2112.12229.
 
-The names of the subfolders correspond to the figure's number that they generate. To run the script, users must change the current directory to the one the script is in.
+The names of the subfolders correspond to the figure's number that they generate. Users must first run the script named `script_[corresponging figure].m`, which will save the data in folder named `results` as a .mat file. Once this is done, users must run the script named `plot_[corresponging figure].m`, located in the same folder where the first script was run. This will produce the desired figure. 
+
+*Note*: To run the script, users must change the current directory to the one the script is in.
 
 *Warning*: some of the scripts, in particular the ones concerning runtime measures, might take several hours to run.
