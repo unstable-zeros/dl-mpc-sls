@@ -2,9 +2,9 @@
 
 This repository hosts the code needed to reproduce the examples in the published work:
 
-1. C. Amo Alonso and N. Matni. "Distributed and Localized Model Predictive Control via System Level Synthesis". In _Proceedings of the 59th IEEE Conference on Decision and Control. IEEE_, 2020, pp. 5598-5605, doi: 10.1109/CDC42340.2020.9303936.
+1. C. Amo Alonso and N. Matni. Distributed and Localized Model Predictive Control via System Level Synthesis. In _Proceedings of the 59th IEEE Conference on Decision and Control. IEEE_, 2020, pp. 5598-5605, doi: 10.1109/CDC42340.2020.9303936.
 
-2. C. Amo Alonso, J. Anderson, and N. Matni. "Explicit Distributed and Localized Model Predictive Control via System Level Synthesis". In _Proceedings of the 59th IEEE Conference on Decision and Control. IEEE_, 2020, pp. 5606-5613, doi: 10.1109/CDC42340.2020.9304349.
+2. C. Amo Alonso, J. Anderson, and N. Matni. Explicit Distributed and Localized Model Predictive Control via System Level Synthesis. In _Proceedings of the 59th IEEE Conference on Decision and Control. IEEE_, 2020, pp. 5606-5613, doi: 10.1109/CDC42340.2020.9304349.
 
 3. C. Amo Alonso, J.S. Li, J. Anderson, and N. Matni. Robust Distributed and Localized Model Predictive Control via System Level Synthesis. arXiv Preprint, 2021, (https://arxiv.org/abs/2110.07010).
 
