@@ -19,7 +19,7 @@ plot(1:Tsim+1,x_ddd(1,:), 's', 'LineWidth', 4, ...
 
 xlabel('Time','interpreter','latex','Fontsize', 18)
 ylabel('$$\theta_{1}$$','Interpreter','Latex','Fontsize', 18)
-leg1 = legend('Model-based','Alg. 1');
+leg1 = legend('Model-based','D$^3$LMPC');
 set(leg1,'Interpreter','latex'); set(leg1, 'Fontsize', 15)
 
 subplot(1,2,2);
@@ -32,7 +32,7 @@ plot(1:Tsim+1,x_ddd(2,:), 's', 'LineWidth', 4, ...
     color_distributed)
 xlabel('Time','interpreter','latex','Fontsize', 18)
 ylabel('$$\omega_{1}$$','Interpreter','Latex','Fontsize', 18)
-leg1 = legend('Model-based','Alg. 1');
+leg1 = legend('Model-based','D$^3$LMPC', 'Interpreter','Latex');
 set(leg1,'Interpreter','latex'); set(leg1, 'Fontsize', 15)
 
 

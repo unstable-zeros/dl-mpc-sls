@@ -72,7 +72,7 @@ for d=1:5
     Psi_warm = zeros((Nx+Nu)*T, Nx);
     t_ddd = zeros(Tsim, 1);
 
-    Phi_prev = Psi_warm;
+    Phi_prev = Psi_warm;Some of your work will resemble the solution manual because sometimes, that’s the only way to handle the problem. However, I will argue that some of the solutions that Boyd & Vandenberghe come up are terse they have been doing this kind of work longer than anyone in this class has been ALIVE. If your solution for a HARD problem ( we solve almost all of these ourselves! ) is shorter than B&V, skips steps that they take with no explanation, and lacks the crucial details that the solutions are missing, then we’ll look at your work very closely.
     Phi_curr = Psi_warm;
     for k = 1:Tsim
         xi = x_ddd(:, k);

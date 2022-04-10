@@ -14,7 +14,7 @@ plot(1:5, ones(5, 1)* obj_cent, '--', 'LineWidth', 4, 'Color', color_cent);
 xlabel('Locality $$d$$','interpreter','latex','Fontsize', 18)
 ylabel('Cost','Interpreter','Latex','Fontsize', 18)
 
-leg1 = legend('DLMPC','Cent. MPC');
+leg1 = legend('D$^3$LMPC','Cent. MPC');
 set(leg1,'Interpreter','latex'); set(leg1, 'Fontsize', 18)
 
 title('\textbf{Cost vs. Locality}','Interpreter','Latex',...

@@ -106,7 +106,7 @@ classdef environment
                 end
             end
         end
-        function [Nx, Nu, p, q, A_dyn, B_dyn, Q, S, A] = grid(N, prob)
+        function [Nx, Nu, p, q, A_dyn, B_dyn, Q, S, A] = one_grid(N, prob)
             Nx = 2*N;
             Nu = N;
             Q = eye(Nx);
@@ -158,6 +158,18 @@ classdef environment
                         A_dyn(2*i-1:2*i, 2*j-1:2*j) = [0 0; K(i,j)*minv(i)*dt 0];
                     end
                 end
+            end
+        end
+        function [Nx, Nu, p, q, A_dyn, B_dyn, Q, S, A] = grid(N, prob)
+            fiedler = 0;
+            while fiedler < 1e-5
+                [Nx, Nu, p, q, A_dyn, B_dyn, Q, S, A] = ...
+                    environment.one_grid(N, prob);
+                D = diag(A * ones(size(A, 1), 1));
+                L = D - A;
+                [~, L_eigs] = eig(L);
+                L_eigs = diag(L_eigs);
+                fiedler = L_eigs(2);
             end
         end
         function [] = plot_grid(A)            % Plot the grid

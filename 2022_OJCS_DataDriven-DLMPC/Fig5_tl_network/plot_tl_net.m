@@ -23,7 +23,7 @@ semilogy((nn_min:nn_max).^2, ddd_tl_array, '-s', 'LineWidth', 4, ...
 xlabel('Network Size','interpreter','latex','Fontsize', 18)
 ylabel('Past trajectory length','Interpreter','Latex','Fontsize', 18)
 
-leg1 = legend('Centralized','Distributed');
+leg1 = legend('Cent. MPC','D$^3$LMPC');
 set(leg1,'Interpreter','latex'); set(leg1, 'Fontsize', 15);
 set(leg1,'Location','northwest');
 
