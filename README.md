@@ -2,17 +2,17 @@
 
 This repository hosts the code needed to reproduce the examples in the published work:
 
-1. C. Amo Alonso and N. Matni. Distributed and Localized Model Predictive Control via System Level Synthesis. In _Proceedings of the 59th IEEE Conference on Decision and Control. IEEE_, 2020, pp. 5598-5605, doi: 10.1109/CDC42340.2020.9303936.
+1. C. Amo Alonso and N. Matni. Distributed and Localized Model Predictive Control via System Level Synthesis. _Proceedings of the 59th IEEE Conference on Decision and Control. IEEE_, 2020, pp. 5598-5605, doi: 10.1109/CDC42340.2020.9303936.
 
-2. C. Amo Alonso, J. Anderson, and N. Matni. Explicit Distributed and Localized Model Predictive Control via System Level Synthesis. In _Proceedings of the 59th IEEE Conference on Decision and Control. IEEE_, 2020, pp. 5606-5613, doi: 10.1109/CDC42340.2020.9304349.
+2. C. Amo Alonso, J. Anderson, and N. Matni. Explicit Distributed and Localized Model Predictive Control via System Level Synthesis. _Proceedings of the 59th IEEE Conference on Decision and Control. IEEE_, 2020, pp. 5606-5613, doi: 10.1109/CDC42340.2020.9304349.
 
 3. C. Amo Alonso, J.S. Li, J. Anderson, and N. Matni. Robust Distributed and Localized Model Predictive Control via System Level Synthesis. arXiv Preprint, 2021, (https://arxiv.org/abs/2110.07010).
 
-4. C. Amo Alonso, J.S. Li, J. Anderson, and N. Matni. Distributed and Localized Model Predictive Control via System Level Synthesis. Part I: Synthesis and Implementation. Submitted to _IEEE Transactions on Control of Network Systems_, 2022, (https://arxiv.org/abs/2110.07010).
+4. C. Amo Alonso, J.S. Li, J. Anderson, and N. Matni. Distributed and Localized Model Predictive Control. Part I: Synthesis and Implementation. To appear in _IEEE Transactions on Control of Network Systems_, 2022, doi: 10.1109/TCNS.2022.3219770.
 
-5. C. Amo Alonso, J.S. Li, J. Anderson, and N. Matni. Distributed and Localized Model Predictive Control via System Level Synthesis. Part II: Theoretical Guarantees. Submitted to _IEEE Transactions on Control of Network Systems_, 2022, (TBD).
+5. C. Amo Alonso, J.S. Li, J. Anderson, and N. Matni. Distributed and Localized Model Predictive Control. Part II: Theoretical Guarantees. To appear in _IEEE Transactions on Control of Network Systems_, 2022, doi: 10.1109/TCNS.2023.3262650.
 
-6. C. Amo Alonso*, F. Yang*, and N. Matni. Data-Driven Distributed and Localized Model Predictive Control via System Level Synthesis. Submitted to _IEEE Open Journal of Control Systems_, 2022, (https://arxiv.org/abs/2112.12229).
+6. C. Amo Alonso*, F. Yang*, and N. Matni. Data-Driven Distributed and Localized Model Predictive Control via System Level Synthesis. _IEEE Open Journal of Control Systems_, Vol. 1, pp. 29-40, 2022, doi: 10.1109/OJCSYS.2022.3171787.
 
 *denotes equal contribution
 
@@ -72,7 +72,7 @@ Download this repository and make sure the /matlab directory and its subfolders 
 
 ## 2022_OJCS_DataDriven-DLMPC
 
-This folder hosts the code needed to reproduce the examples in article [6] and its preprint https://arxiv.org/abs/2112.12229.
+This folder hosts the code needed to reproduce the examples in article [6].
 
 The names of the subfolders correspond to the figure's number that they generate. Users must first run the script named `script_[corresponging figure].m`, which will save the data in folder named `results` as a .mat file. Once this is done, users must run the script named `plot_[corresponging figure].m`, located in the same folder where the first script was run. This will produce the desired figure. 
 
